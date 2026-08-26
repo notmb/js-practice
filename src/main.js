@@ -1,8 +1,8 @@
-import getActiveUsers from "./activeUser";
-import getUserNames from "./userNames";
-import findUserById from "./findUsers";
-import groupUsersByRole from "./usersByRole";
-import renameUser from "./renameUser";
+import { getActiveUsers } from "./activeUser";
+import { getUserNames } from "./userNames";
+import { findUserById } from "./findUsers";
+import { groupUsersByRole } from "./usersByRole";
+import { renameUser } from "./renameUser";
 const users = [
   {
     id: 1,
