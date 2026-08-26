@@ -4,7 +4,7 @@ const renameUser = (users, id, newName) => {
       user.name = newName;
     }
   });
-  return renameUser;
+  return renameUsers;
 };
 
 export default renameUser;
