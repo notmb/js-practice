@@ -1,6 +1,6 @@
 const getUserNames = (users) => {
   const names = [];
-  users.forEach((item) => names.push(item.names));
+  users.forEach((user) => names.push(user.name));
   return names;
 };
 export default getUserNames;

@@ -1,6 +1,6 @@
 const getActiveUsers = (users) => {
   const activeUsers = users.filter((user) => {
-    if (user.activ === true) {
+    if (user.active === true) {
       return true;
     }
   });
