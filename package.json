@@ -1,0 +1,23 @@
+{
+  "name": "task-for-interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notmb/js-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notmb/js-practice/issues"
+  },
+  "homepage": "https://github.com/notmb/js-practice#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^8.2.2"
+  }
+}
