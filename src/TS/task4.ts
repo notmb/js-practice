@@ -13,5 +13,5 @@ function formatId(id: ID): string {
   //return id; не працює потрібна перевірка на тип
   if (typeof id === "string") {
     return id;
-  } else return "beeee";
+  } else return id.toString();
 }
