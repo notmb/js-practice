@@ -29,8 +29,10 @@ const users: User[] = [
 ];
 
 const user = findUser1(users, "1");
-
-// console.log(user.name);
+//  console.log(user.name);
+if (user) {
+  console.log(user.name);
+}
 
 users.forEach((user) => {
   console.log(user.name);
