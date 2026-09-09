@@ -26,7 +26,7 @@ const users: User[] = [
   },
 ];
 
-const getActiveUsers = (users: User[]): User[] => {
+const getActiveUsers = (users: User[]) => {
   return users.filter((user) => user.active);
 };
 
