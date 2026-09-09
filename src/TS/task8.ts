@@ -36,7 +36,7 @@ function getUserNames(users: User[]) {
   });
 }
 
-const findUserById = (users: User[], id: number): User | undefined => {
+const findUserById = (users: User[], id: number) => {
   return users.find((user) => user.id === id);
 };
 
