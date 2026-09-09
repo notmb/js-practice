@@ -1,3 +1,4 @@
+export {};
 // Learn:
 
 // parameter types
@@ -5,6 +6,11 @@
 // optional parameters
 // default parameters
 // callback types
+type User = {
+  id: number;
+  name: string;
+  active: boolean;
+};
 
 const users: User[] = [
   {
@@ -23,12 +29,6 @@ const users: User[] = [
     active: false,
   },
 ];
-
-type User = {
-  id: number;
-  name: string;
-  active: boolean;
-};
 
 function calculateTotal(
   price: number,
