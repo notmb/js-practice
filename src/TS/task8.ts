@@ -40,7 +40,7 @@ const findUserById = (users: User[], id: number) => {
   return users.find((user) => user.id === id);
 };
 
-function getAdmins(users: User[]): User | undefined {
+function getAdmins(users: User[]): User {
   return users.find((user) => user.role === "admin");
 }
 
