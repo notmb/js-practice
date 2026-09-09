@@ -30,7 +30,7 @@ const getActiveUsers = (users: User[]): User[] => {
   return users.filter((user) => user.active);
 };
 
-function getUserNames(users: User[]): string[] {
+function getUserNames(users: User[]) {
   return users.map((user) => {
     return user.name;
   });
