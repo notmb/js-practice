@@ -16,8 +16,15 @@
     "url": "https://github.com/notmb/js-practice/issues"
   },
   "homepage": "https://github.com/notmb/js-practice#readme",
-  "description": "",
   "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "typescript": "^7.0.2",
     "vite": "^8.2.2"
-  }
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "description": ""
 }
